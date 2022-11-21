@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libraryCSS.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="fa fa-home"></a>
+
+        <a  class="logo"> Komar University of Science and Technology</a>
+        <a href="#" class="fa fa-envelope-o"></a>
+        <a  href="#" class="logo">library@komar.edu.iq </a>
+        <div class="header-right">
+         
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#default" class="signin">sign in</a>
+          
+        </div>
+      </div>
+     
+      <div class="nav" >
+        <i class="fa fa-search"></i>
+        <a href="#news">Contact</a>
+        <a href="#news">Users</a>
+        <a href="#contact">Service</a>
+        <a href="#about">About us</a>
+        <a href="#home" class="active">Home</a>
+        <img src="it_logo.png" alt="logo" width="60">
+      </div>
+
+      <img class="mySlides" src="1.jfif" width="1250" height="500">
+      <img class="mySlides" src="2.jpg"width="1250" height="500">
+      <img class="mySlides" src="3.jfif"width="1250" height="500">
+      
+
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+
+   <h1 style="text-align:center;">WHY KUST LIBRARY</h1>
+<p style="text-align:center;">All the text books on your syllabus are avilable along with huge number of useful references and articles!</p>
+
+
+
+
+
+
+
+
+      
+   
+
+
+
+  <div class="row" style="text-align: center;">
+
+    <div class="column">
+        <a href="login.php"><img src="i1.png" alt="#" ></a>
+        <h4 class="theme_color">E-Library</h4>
+      <p>Provides access to journals, books, magazines, newspaper, 
+        electronic books, encyclopedias!</p>
+    </div>
+    <div class="column">
+        <a  href="login.php"><img src="i2.png" alt="#" > </a>
+        <h4 class="theme_color">Physical Library</h4>
+      <p>Provides Books, Articles and Thesis in a hard copy!</p>
+    </div>
+    
+</div>
+
+
+<h1 style="text-align:center ;">OUR SERVICES</h1>
+<p style="text-align:center ;">We provide services to students and faculty.</p>
+
+<div class="row" style="text-align: center;">
+
+    <div class="column">
+        <div class="zoom">
+        <a href="login.php"><img src="si1.png" alt="#" width="200"  height="200" ></a>
+        <h4 class="theme_color" >Search Books</h4>
+      </div>
+
+    </div>
+    <div class="column">
+        <div class="zoom">
+        <a href="login.php"><img src="si2.png" alt="#" width="200"  height="200" > </a>
+        <h4 class="theme_color" >Download Books</h4>
+    </div>
+    </div>
+    
+    <div class="column">
+        <div class="zoom">
+        <a href="login.php"><img src="si3.png" alt="#" width="200"  height="200" > </a>
+        <h4 class="theme_color" >Find Book Location</h4>
+    </div>
+     </div>
+        <div class="column">
+            <div class="zoom">
+            <a href="login.php"><img src="schedule.png" alt="#" width="200"  height="200" > </a>
+            <h4 class="theme_color" >Check Schedule</h4>
+        </div>
+
+        </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="footer">
+    
+        <p>ADDITIONAL LINKS<br>
+           
+    <h1 style="font-size: 12px;"> >About us</h1>
+    <h1 style="font-size: 12px;"> >Terms and conditions</h1>
+    <h1 style="font-size: 12px;"> >Privacy policy </h1>
+    <h1 style="font-size: 12px;"> >News</h1>
+    <h1 style="font-size: 12px;"> > Contact us</h1>
+       
+    <div class="textcenter">
+    <p>LIBRARY OPENING TIME<br>
+    <h1 style="font-size: 12px;">Sunday-Thursday/ 8:00AM- 4:00PM.</h1>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+<br>
+<br>
+<p>SERVICES</p>
+<h1 style="font-size: 12px;"> >Search books</h1>
+<h1 style="font-size: 12px;"> >Download books</h1>
+<h1 style="font-size: 12px;"> >Find location of the books</h1>
+<h1 style="font-size: 12px;"> >Follow up students activities </h1>
+<h1 style="font-size: 12px;"> >Technical support</h1>
+    </div>
+
+   
+<p>CONTACT US</p><br>
+<p>KUST Library, Qularaisi,
+    Sulaimani,<br> Kurdistaqn Reqion, Iraq
+    +964 750 110 3131</p>
+
+
+
+
+
+  </footer>
+
+
+
+    </body>
+
+</html>
